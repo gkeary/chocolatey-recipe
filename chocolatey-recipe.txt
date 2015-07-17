@@ -2,7 +2,7 @@
 #choco install winmerge
 # choco install git
 #  cmder comes with git
-choco install Cmder  
+choco install --force Cmder  
 #choco install sourcetree
 
 # webdev

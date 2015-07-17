@@ -1,0 +1,47 @@
+# source control tools
+choco install winmerge
+# choco install git
+#  cmder comes with git
+choco install Cmder  
+choco install sourcetree
+
+# webdev
+choco install fiddler4
+choco install filezilla
+choco install nodejs.install 
+
+# utilities
+choco install  putty 
+choco install skype 
+choco install f.lux  
+choco install dotPeek
+choco install ilmerge
+choco install NugetPackageExplorer
+choco install paint.net
+#choco install PngGauntlet  #this package required manual entry
+choco install astrogrep
+choco install daemontoolslite
+choco install vagrant
+choco install greenshot
+choco install freemind
+choco install scriptcs
+
+# editors
+choco install visualstudiocommunity2013
+choco install resharper
+choco install WebStorm
+choco install pycharm-community
+choco install notepadplusplus
+choco install markdownpad2
+choco install atom
+
+# browsers
+choco install google-chrome-x64
+choco install Firefox
+
+Install-WindowsUpdate -getUpdatesFromMS -acceptEula -SuppressReboots
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives  -EnableShowFileExtensions -EnableShowFullPathInTitleBar
+
+# need to creat my own
+# http://www.cockos.com/licecap/
+# http://azurestorageexplorer.codeplex.com/

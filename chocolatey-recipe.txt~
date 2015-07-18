@@ -1,9 +1,9 @@
 # source control tools
-#choco install winmerge
+choco install winmerge
 # choco install git
 #  cmder comes with git
 choco install Cmder  
-#choco install sourcetree
+choco install sourcetree
 
 # webdev
 #choco install fiddler4
@@ -34,7 +34,7 @@ choco install Cmder
 #choco install notepadplusplus
 #choco install markdownpad2
 #choco install atom
-#choco install vim
+choco install vim
 # browsers
 #choco install google-chrome-x64
 #choco install Firefox

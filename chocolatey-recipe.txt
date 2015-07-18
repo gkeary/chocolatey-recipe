@@ -1,9 +1,9 @@
 # source control tools
-#choco install winmerge
+choco install winmerge
 # choco install git
 #  cmder comes with git
-choco install --force Cmder  
-#choco install sourcetree
+choco install Cmder  
+choco install sourcetree
 
 # webdev
 #choco install fiddler4
@@ -34,13 +34,13 @@ choco install --force Cmder
 #choco install notepadplusplus
 #choco install markdownpad2
 #choco install atom
-#choco install vim
+choco install vim
 # browsers
 #choco install google-chrome-x64
 #choco install Firefox
 
 #Install-WindowsUpdate -getUpdatesFromMS -acceptEula -SuppressReboots
-#Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives  -EnableShowFileExtensions -EnableShowFullPathInTitleBar
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives  -EnableShowFileExtensions -EnableShowFullPathInTitleBar
 
 # need to creat my own
 # http://www.cockos.com/licecap/

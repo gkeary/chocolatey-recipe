@@ -40,7 +40,7 @@ choco install vim
 #choco install Firefox
 
 #Install-WindowsUpdate -getUpdatesFromMS -acceptEula -SuppressReboots
-#Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives  -EnableShowFileExtensions -EnableShowFullPathInTitleBar
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives  -EnableShowFileExtensions -EnableShowFullPathInTitleBar
 
 # need to creat my own
 # http://www.cockos.com/licecap/

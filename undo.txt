@@ -1,0 +1,63 @@
+# as built:  
+#   This one ran to completion on pro3
+
+# source control tools
+choco uninstall winmerge
+ choco uninstall git
+  cmder comes with git
+choco uninstall Cmder  
+choco uninstall sourcetree
+
+# webdev
+choco uninstall fiddler4
+choco uninstall filezilla
+choco uninstall nodejs.install 
+
+# utilities
+choco uninstall  putty 
+choco uninstall skype 
+choco uninstall f.lux  
+choco uninstall dotPeek
+choco uninstall ilmerge
+choco uninstall NugetPackageExplorer
+choco uninstall paint.net
+choco uninstall PngGauntlet  #this package required manual entry
+choco uninstall astrogrep
+choco uninstall daemontoolslite
+choco uninstall vagrant
+choco uninstall greenshot
+choco uninstall freemind
+choco uninstall scriptcs
+
+# editors
+# this takes a while...
+# should I do VS2015??
+choco uninstall visualstudiocommunity2013
+choco uninstall resharper
+choco uninstall WebStorm
+choco uninstall pycharm-community
+choco uninstall notepadplusplus
+choco uninstall markdownpad2
+choco uninstall atom
+choco uninstall vim
+ browsers
+choco uninstall google-chrome-x64
+choco uninstall Firefox
+
+#Install-WindowsUpdate -getUpdatesFromMS -acceptEula -SuppressReboots
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives  -EnableShowFileExtensions -EnableShowFullPathInTitleBar
+
+ #James Sturtevant sez:  need to creat my own
+ http://www.cockos.com/licecap/ 
+ http://azurestorageexplorer.codeplex.com/ 
+
+ #my stuff -- from MAX 
+ #choco must be installed for real...  
+#  what about NERDTREE?  
+choco uninstall chocolatey 
+choco uninstall javaruntime 
+#  next one needed for Dispatch2
+choco uninstall dotnet3.5
+
+
+

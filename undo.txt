@@ -2,47 +2,47 @@
 #   This one ran to completion on pro3
 
 # source control tools
-choco uninstall winmerge
- choco uninstall git
-  cmder comes with git
-choco uninstall Cmder  
-choco uninstall sourcetree
+choco uninstall -y winmerge
+ choco uninstall -y git
+  #cmder comes with git
+choco uninstall -y Cmder  
+choco uninstall -y sourcetree
 
 # webdev
-choco uninstall fiddler4
-choco uninstall filezilla
-choco uninstall nodejs.install 
+choco uninstall -y fiddler4
+choco uninstall -y filezilla
+choco uninstall -y nodejs.install 
 
 # utilities
-choco uninstall  putty 
-choco uninstall skype 
-choco uninstall f.lux  
-choco uninstall dotPeek
-choco uninstall ilmerge
-choco uninstall NugetPackageExplorer
-choco uninstall paint.net
-choco uninstall PngGauntlet  #this package required manual entry
-choco uninstall astrogrep
-choco uninstall daemontoolslite
-choco uninstall vagrant
-choco uninstall greenshot
-choco uninstall freemind
-choco uninstall scriptcs
+choco uninstall -y  putty 
+choco uninstall -y skype 
+choco uninstall -y f.lux  
+choco uninstall -y dotPeek
+choco uninstall -y ilmerge
+choco uninstall -y NugetPackageExplorer
+choco uninstall -y paint.net
+choco uninstall -y PngGauntlet  #this package required manual entry
+choco uninstall -y astrogrep
+choco uninstall -y daemontoolslite
+choco uninstall -y vagrant
+choco uninstall -y greenshot
+choco uninstall -y freemind
+choco uninstall -y scriptcs
 
 # editors
 # this takes a while...
 # should I do VS2015??
-choco uninstall visualstudiocommunity2013
-choco uninstall resharper
-choco uninstall WebStorm
-choco uninstall pycharm-community
-choco uninstall notepadplusplus
-choco uninstall markdownpad2
-choco uninstall atom
-choco uninstall vim
- browsers
-choco uninstall google-chrome-x64
-choco uninstall Firefox
+choco uninstall -y visualstudiocommunity2013
+choco uninstall -y resharper
+choco uninstall -y WebStorm
+choco uninstall -y pycharm-community
+choco uninstall -y notepadplusplus
+choco uninstall -y markdownpad2
+choco uninstall -y atom
+choco uninstall -y vim
+# browsers
+choco uninstall -y google-chrome-x64
+choco uninstall -y Firefox
 
 #Install-WindowsUpdate -getUpdatesFromMS -acceptEula -SuppressReboots
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives  -EnableShowFileExtensions -EnableShowFullPathInTitleBar
@@ -51,13 +51,13 @@ Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives  -EnableShowFileE
  http://www.cockos.com/licecap/ 
  http://azurestorageexplorer.codeplex.com/ 
 
- #my stuff -- from MAX 
- #choco must be installed for real...  
+#my stuff -- from MAX 
+#choco must be installed for real...  
 #  what about NERDTREE?  
-choco uninstall chocolatey 
-choco uninstall javaruntime 
+choco uninstall -y chocolatey 
+choco uninstall -y javaruntime 
 #  next one needed for Dispatch2
-choco uninstall dotnet3.5
+choco uninstall -y dotnet3.5
 
 
 

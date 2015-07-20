@@ -1,8 +1,8 @@
 Gregg changes
 ===============
-modified Boxstarter.bat.  It now points to my id in github.
-added line for vim
-all lines commented out except one...
+- modified Boxstarter.bat.  It now points to my id in github
+- added line for vim
+- all lines commented out except one
 
 
 

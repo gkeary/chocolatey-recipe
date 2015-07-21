@@ -3,7 +3,7 @@
 
 # source control tools
 choco install -y winmerge
- choco install -y git
+choco install -y git
 #  cmder comes with git
 choco install -y Cmder  
 choco install -y sourcetree

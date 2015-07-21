@@ -1,5 +1,5 @@
 # as built:  
-#   This one ran to completion on pro3
+#  this is undo.txt 
 
 # source control tools
 choco uninstall -y winmerge
@@ -32,7 +32,7 @@ choco uninstall -y scriptcs
 # editors
 # this takes a while...
 # should I do VS2015??
-choco uninstall -y visualstudiocommunity2013
+#choco uninstall -y visualstudiocommunity2013
 choco uninstall -y resharper
 choco uninstall -y WebStorm
 choco uninstall -y pycharm-community
@@ -48,8 +48,8 @@ choco uninstall -y Firefox
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives  -EnableShowFileExtensions -EnableShowFullPathInTitleBar
 
  #James Sturtevant sez:  need to creat my own
- http://www.cockos.com/licecap/ 
- http://azurestorageexplorer.codeplex.com/ 
+# http://www.cockos.com/licecap/ 
+# http://azurestorageexplorer.codeplex.com/ 
 
 #my stuff -- from MAX 
 #choco must be installed for real...  

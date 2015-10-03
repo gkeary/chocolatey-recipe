@@ -1,59 +1,57 @@
 # source control tools
-#choco install winmerge
-# choco install git
+#choco install -y winmerge
+# choco install -y git
 #  cmder comes with git
-#choco install Cmder  
-#choco install sourcetree
+#choco install -y Cmder
+#choco install -y sourcetree
 
 # webdev
-#choco install fiddler4
-#choco install filezilla
-#choco install nodejs.install 
+#choco install -y fiddler4
+#choco install -y filezilla
+#choco install -y nodejs.install
 
 # utilities
-#choco install  putty 
-#choco install skype 
-#choco install f.lux  
-#choco install dotPeek
-#choco install ilmerge
-#choco install NugetPackageExplorer
-#choco install paint.net
-choco install PngGauntlet  #this package required manual entry
-#choco install astrogrep
-#choco install daemontoolslite
-#choco install vagrant
-#choco install greenshot
-#choco install freemind
-#choco install scriptcs
+#choco install -y  putty
+#choco install -y skype
+#choco install -y f.lux
+#choco install -y dotPeek
+#choco install -y ilmerge
+#choco install -y NugetPackageExplorer
+#choco install -y paint.net
+#choco install -y PngGauntlet  #this package required manual entry
+#choco install -y astrogrep
+#choco install -y daemontoolslite
+#choco install -y vagrant
+#choco install -y greenshot
+#choco install -y freemind
+#choco install -y scriptcs
 #
 # editors
 # this takes a while...
 # should I do VS2015??
-#choco install visualstudiocommunity2013
-#choco install resharper
-#choco install WebStorm
-#choco install pycharm-community
-#choco install notepadplusplus
-#choco install markdownpad2
-#choco install atom
-#choco install vim
+# yup!
+choco install visualstudiocommunity2015
+#choco install -y resharper
+#choco install -y WebStorm
+#choco install -y pycharm-community
+#choco install -y notepadplusplus
+#choco install -y markdownpad2
+#choco install -y atom
+#choco install -y vim
 # browsers
-#choco install google-chrome-x64
-#choco install Firefox
+#choco install -y google-chrome-x64
+#choco install -y Firefox
 
 #Install-WindowsUpdate -getUpdatesFromMS -acceptEula -SuppressReboots
 #Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives  -EnableShowFileExtensions -EnableShowFullPathInTitleBar
 
 # need to creat my own
-# http://www.cockos.com/licecap/ 
-# http://azurestorageexplorer.codeplex.com/ 
-# my stuff -- from MAX 
-# choco must be installed for real...  
-#  what about NERDTREE?  
-#choco install chocolatey 
-#choco install javaruntime 
+# http://www.cockos.com/licecap/
+# http://azurestorageexplorer.codeplex.com/
+# my stuff -- from MAX
+# choco must be installed for real...
+#  what about NERDTREE?
+#choco install -y chocolatey
+#choco install -y javaruntime
 #  next one needed for Dispatch2
-choco install dotnet3.5
-
-
-
+#choco install -y dotnet3.5

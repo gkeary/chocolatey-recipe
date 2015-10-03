@@ -1,49 +1,49 @@
 # as built:  
-#   This one ran to completion on pro3
+#   pulled from github and managed with Sourcetree
 
 # source control tools
-choco install -y winmerge
-choco install -y git
+#choco install -y winmerge
+#choco install -y git
 #  cmder comes with git
-choco install -y Cmder  
-choco install -y sourcetree
+#choco install -y Cmder  
+#choco install -y sourcetree
 
 # webdev
-choco install -y fiddler4
-choco install -y filezilla
-choco install -y nodejs.install 
+#choco install -y fiddler4
+#choco install -y filezilla
+#choco install -y nodejs.install 
 
 # utilities
-choco install -y  putty 
-choco install -y skype 
-choco install -y f.lux  
-choco install -y dotPeek
-choco install -y ilmerge
-choco install -y NugetPackageExplorer
-choco install -y paint.net
-choco install -y PngGauntlet  #this package required manual entry
-choco install -y astrogrep
-choco install -y daemontoolslite
-choco install -y vagrant
-choco install -y greenshot
-choco install -y freemind
-choco install -y scriptcs
+#choco install -y  putty 
+#choco install -y skype 
+#choco install -y f.lux  
+#choco install -y dotPeek
+#choco install -y ilmerge
+#choco install -y NugetPackageExplorer
+#choco install -y paint.net
+#choco install -y PngGauntlet  #this package required manual entry
+#choco install -y astrogrep
+#choco install -y daemontoolslite
+#choco install -y vagrant
+#choco install -y greenshot
+#choco install -y freemind
+#choco install -y scriptcs
 
 # editors
 # this takes a while...
 # should I do VS2015??
-choco install -y visualstudiocommunity2013
-choco install -y resharper
-choco install -y WebStorm
-choco install -y pycharm-community
-choco install -y notepadplusplus
-choco install -y markdownpad2
-choco install -y atom
-choco install -y vim
+choco install -y visualstudiocommunity2015
+#choco install -y resharper
+#choco install -y WebStorm
+#choco install -y pycharm-community
+#choco install -y notepadplusplus
+#choco install -y markdownpad2
+#choco install -y atom
+#choco install -y vim
 
 # browsers
-choco install -y google-chrome-x64
-choco install -y Firefox
+#choco install -y google-chrome-x64
+#choco install -y Firefox
 
 Install-WindowsUpdate -getUpdatesFromMS -acceptEula -SuppressReboots
  Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives  -EnableShowFileExtensions -EnableShowFullPathInTitleBar
@@ -55,10 +55,10 @@ Install-WindowsUpdate -getUpdatesFromMS -acceptEula -SuppressReboots
  #my stuff -- from MAX 
  #choco must be installed for real...  
 	#  what about NERDTREE?  
-choco install -y chocolatey 
-choco install -y javaruntime 
+#choco install -y chocolatey 
+#choco install -y javaruntime 
 #  next one needed for Dispatch2
-choco install -y dotnet3.5
+#choco install -y dotnet3.5
 
 
 

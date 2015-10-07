@@ -1,5 +1,7 @@
 # as built:  
 #   pulled from github and managed with Sourcetree
+#  changed git config core.editor gvim
+#   let's just see if it takes
 
 # source control tools
 #choco install -y winmerge

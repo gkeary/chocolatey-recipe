@@ -37,7 +37,7 @@ choco install -y sourcetree
 # this takes a while...
 # should I do VS2015??
 # yup!
-choco install visualstudiocommunity2015
+#choco install visualstudiocommunity2015
 #choco install -y resharper
 #choco install -y WebStorm
 #choco install -y pycharm-community

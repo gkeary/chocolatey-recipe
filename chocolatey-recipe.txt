@@ -1,14 +1,16 @@
-# as built:  
+# Edited on github for MAX
+# MAX running Win10 with Bash UBUNTU
+# :  
 #   pulled from github and managed with Sourcetree
 #  changed git config core.editor gvim
 #   let's just see if it takes
 
 # source control tools
 #choco install -y winmerge
-# choco install -y git
+ choco install -y git
 #  cmder comes with git
 #choco install -y Cmder
-#choco install -y sourcetree
+choco install -y sourcetree
 
 # webdev
 #choco install -y fiddler4
@@ -42,7 +44,7 @@ choco install visualstudiocommunity2015
 #choco install -y notepadplusplus
 #choco install -y markdownpad2
 #choco install -y atom
-#choco install -y vim
+choco install -y vim
 # browsers
 #choco install -y google-chrome-x64
 #choco install -y Firefox
